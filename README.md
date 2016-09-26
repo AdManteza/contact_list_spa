@@ -1,10 +1,10 @@
-Sinatra
+ContactListV4
 =============
 
-Brought to you by Lighthouse Labs
+A single page contact list app that can add new contacts, displays all existing contacts, search for a specific contact
+as well as delete an existing contact. This was implemented using HTML/CSS/Bootstrap, Javascript & Jquery for the front-end
+and Ruby/Sinatra for the backend and PostGres for the database. API calls to the backend is executed by using AJAX/JSON.
 
 ## Getting Started
 
-1. `bundle install`
-2. `shotgun -p 3000 -o 0.0.0.0`
-3. Visit `http://localhost:3000/` in your browser
+1. Visit `https://contactlistv4.herokuapp.com/` in your browser
