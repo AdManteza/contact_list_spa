@@ -51,7 +51,7 @@ $( document ).ready(function() {
     url: "/contacts/" + contact_id,
     method: 'DELETE',
     success: function(response) {
-      alert(`${response.firstName} ${response.lastname} has been deleted!`);
+      alert(`${response.firstname} ${response.lastname} has been deleted!`);
       $(`#${contact_id}`).remove();
     },
     error: function(error) {
